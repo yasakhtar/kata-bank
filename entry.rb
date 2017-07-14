@@ -1,4 +1,4 @@
-class AccountDigits
+class Entry
 
   def initialize
     @account_digits = []

@@ -1,4 +1,5 @@
 require_relative 'parser'
+require_relative 'digit_converter'
 
 class Bank
 
@@ -8,11 +9,16 @@ class Bank
 
   def read_file(filename)
     file_lines = File.readlines(filename)
-    digits = @parser.read_digits_for_account(file_lines)
+
+    # change to read an entry from 4 file lines?
+    digits = @parser.read_entry(file_lines)
 
     digits.each do |d|
       puts d.to_s
     end
+
+    d = DigitConverter.new
+    puts d
   end
 end
 

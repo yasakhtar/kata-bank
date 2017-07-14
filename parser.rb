@@ -19,7 +19,7 @@ class Parser
   end
 
   # handle the 4 lines for an account - returns the list of digits in the account.
-  def read_digits_for_account(account_lines)
+  def read_entry(account_lines)
 
     account_digits = []
 

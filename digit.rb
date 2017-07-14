@@ -14,4 +14,6 @@ class Digit
     @digit_lines.join("\n")
   end
 
+  private
+
 end
