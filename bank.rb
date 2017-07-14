@@ -25,8 +25,20 @@ end
 bank = Bank.new
 entry = bank.read_file("./input/account.txt")
 
-s = entry.to_account_number
-puts s
+puts entry.to_account_number
+
+entry.digits.each do |k|
+  puts "#{k.to_s} #{k.to_s.length}"
+end
+
+d = DigitConverter.new
+puts d.digits_hash
+puts d.digits_hash.count
+d.digits_hash.each do |k,v|
+  puts "#{k} #{k.length}"
+end
+
+
 # d_string = d.to_s
 # k_string = k.to_s
 
@@ -40,5 +52,3 @@ puts s
 # k_string.each_byte do |b|
 #   puts b
 # end
-
-

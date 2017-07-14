@@ -28,15 +28,6 @@ class Digit
     digit_as_string = convert_to_string
     match = digit_hash[digit_as_string]
 
-    puts "matching #{digit_as_string}"
-
-    h = @converter.digits_hash
-
-    h.each do |k,v|
-      puts k
-    end
-
-
     match || 'X'
 
   end
