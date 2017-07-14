@@ -6,8 +6,12 @@ class Digit
     @digit_lines = []
   end
 
-  def add_line(line)
+  def add_segment(segment)
     @digit_lines << line
+  end
+
+  def <<(value)
+    @digit_lines << value
   end
 
   def to_s

@@ -1,3 +1,4 @@
+require 'entry'
 require_relative 'digit'
 
 class Parser
@@ -19,28 +20,21 @@ class Parser
   end
 
   # handle the 4 lines for an account - returns the list of digits in the account.
-  def read_entry(account_lines)
+  def read_entry(entry_lines)
 
-    account_digits = []
+    entry = Entry.new
 
-    account_lines.each do | account_line |
+    entry_lines.each do | entry_line |
 
-      digits_in_line = account_line.scan(/.{3}/)
+      digits_segments = entry_line.scan(/.{3}/)
 
-      digits_in_line.each_with_index do | digit_line, pos |
-        digit = get_digit_for_position(account_digits, pos)
-        digit.add_line(digit_line)
+      digits_segments.each_with_index do | digit_segment, digit_position |
+        entry.add_segment(digit_segment, digit_position)
       end
     end
 
-    account_digits
+    entry
   end
 
-  def get_digit_for_position(digits, pos)
-
-    digits << Digit.new if digits.length <= pos
-    digits[pos]
-
-  end
 
 end
