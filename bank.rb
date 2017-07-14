@@ -8,19 +8,37 @@ class Bank
   end
 
   def read_file(filename)
+
     file_lines = File.readlines(filename)
 
-    # change to read an entry from 4 file lines?
-    digits = @parser.read_entry(file_lines)
+    #change needed to read multiple entries
+    entry = @parser.read_entry(file_lines)
 
-    digits.each do |d|
-      puts d.to_s
-    end
+    # entry.digits.each do |d|
+    #   puts d.to_s
+    # end
 
-    d = DigitConverter.new
-    puts d
+    entry
   end
 end
 
 bank = Bank.new
-bank.read_file("./input/account.txt")
+entry = bank.read_file("./input/account.txt")
+
+s = entry.to_account_number
+puts s
+# d_string = d.to_s
+# k_string = k.to_s
+
+
+# puts 'digit'
+# d_string.each_byte do |b|
+#   puts b
+# end
+# 
+# puts 'key'
+# k_string.each_byte do |b|
+#   puts b
+# end
+
+

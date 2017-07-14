@@ -4,9 +4,10 @@ class Digit
 
   def initialize
     @digit_lines = []
+    @converter = DigitConverter.new
   end
 
-  def add_segment(segment)
+  def add_line(line)
     @digit_lines << line
   end
 
@@ -18,6 +19,29 @@ class Digit
     @digit_lines.join("\n")
   end
 
-  private
+  def convert_to_string
+    @digit_lines.join("\n")
+  end
+
+  def to_account_string
+    digit_hash = @converter.digits_hash
+    digit_as_string = convert_to_string
+    match = digit_hash[digit_as_string]
+
+    puts "matching #{digit_as_string}"
+
+    h = @converter.digits_hash
+
+    h.each do |k,v|
+      puts k
+    end
+
+
+    match || 'X'
+
+  end
+
+
+
 
 end

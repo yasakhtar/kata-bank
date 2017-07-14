@@ -1,5 +1,6 @@
 class DigitConverter
-  attr_accessor :digits_hash, :digits_hash2
+
+  attr_accessor :digits_hash
 
   def initialize
     create_digits_hash
@@ -10,64 +11,64 @@ class DigitConverter
   end
 
   def to_s
-    @digits_hash.each {|k, v| puts k}
+    @digits_hash.each { |k, v| puts k}
   end
 
   private
 
   def create_digits_hash
 
-    zero = '
- _
+    zero = 
+' _
 | |
 |_|'
-    one = '
-
+    one = 
+'   
   |
   |'
 
-    two = '
- _
+    two = 
+' _ 
  _|
-|_'
+|_ '
 
-    three = '
- _
+    three =
+' _ 
  _|
  _|'
 
-    four = '
-
+    four = 
+'   
 |_|
   |'
 
-    five ='
- _
-|_
+    five =
+ ' _ 
+|_ 
  _|'
 
-    six = '
- _
-|_
+    six = 
+' _ 
+|_ 
 |_|'
 
-    seven = '
- _
+    seven =
+' _ 
   |
   |'
 
-    eight = '
- _
+    eight =
+' _ 
 |_|
 |_|'
 
-    nine = '
- _
+    nine = 
+' _ 
 |_|
  _|'
 
     @digits_hash = {
-      zero => "0",
+      #zero => "0",
       one => "1",
       two => "2",
       three => "3",

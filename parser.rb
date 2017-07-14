@@ -1,5 +1,4 @@
-require 'entry'
-require_relative 'digit'
+require_relative 'entry'
 
 class Parser
 
