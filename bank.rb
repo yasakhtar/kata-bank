@@ -16,5 +16,5 @@ bank = Bank.new
 accounts = bank.read_file("./input/account.txt")
 
 accounts.each do |account|
-  puts account.to_account_number
+  puts "#{account.to_account_number} #{account.status}"
 end

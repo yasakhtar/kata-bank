@@ -30,7 +30,7 @@ class Digit
   def to_account_string
     
     match = Digits.find_match_for_string(self.digit_as_string) 
-    match || 'X'
+    match || '?'
   end
   
 end
