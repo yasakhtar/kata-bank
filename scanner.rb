@@ -1,11 +1,11 @@
 require_relative 'entry'
 
-class Parser
+class Scanner
 
   LINES_PER_ACCOUNT = 4;
 
   # handle the lines in the file. Break into groups of 4 and then read the digits for each of these.
-  def parse_all_file_lines(all_file_lines)
+  def scan_all(all_file_lines)
     account_lines_list = all_file_lines.each_slice(LINES_PER_ACCOUNT)
 
     accounts = []
@@ -19,7 +19,7 @@ class Parser
   end
 
   # handle the 4 lines for an account - returns the list of digits in the account.
-  def read_entry(entry_lines)
+  def scan_line(entry_lines)
 
     entry = Entry.new
 

@@ -1,6 +1,12 @@
 class Digit
 
   attr_accessor :digit_lines
+  
+  def self.build(lines)
+    digit = Digit.new
+    digit.digit_lines = lines
+    digit
+  end
 
   def initialize
     @digit_lines = []
