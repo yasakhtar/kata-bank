@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bdce791-ccc4-44bf-b3f3-3ebf009f3c3c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.rb" afterPath="$PROJECT_DIR$/account.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/digits.rb" afterPath="$PROJECT_DIR$/digits.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanner.rb" afterPath="$PROJECT_DIR$/scanner.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account_converter.rb" afterPath="$PROJECT_DIR$/account_converter.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,21 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_converter.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="account_converter.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/account_converter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="585">
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -165,7 +164,6 @@
         <option value="$PROJECT_DIR$/entry.rb" />
         <option value="$PROJECT_DIR$/parser.rb" />
         <option value="$PROJECT_DIR$/input/digits.rb" />
-        <option value="$PROJECT_DIR$/account_converter.rb" />
         <option value="$PROJECT_DIR$/digit_converter.rb" />
         <option value="$PROJECT_DIR$/input/account.txt" />
         <option value="$PROJECT_DIR$/digit.rb" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/scanner.rb" />
         <option value="$PROJECT_DIR$/digits.rb" />
         <option value="$PROJECT_DIR$/account.rb" />
+        <option value="$PROJECT_DIR$/account_converter.rb" />
       </list>
     </option>
   </component>
@@ -439,7 +438,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26575000" />
+    <option name="totallyTimeSpent" value="26865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,18 +845,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account_converter.rb">
+    <entry file="file://$PROJECT_DIR$/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account.rb">
+    <entry file="file://$PROJECT_DIR$/account_converter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="585">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>
