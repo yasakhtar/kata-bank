@@ -1,10 +1,7 @@
 class Digits
   
-  def self.find_match_for_string(str)
-    @@digits_hash[str.strip]
-  end
-  
   def self.digits_hash
+    @@digits_hash ||= self.create_digits_hash
     @@digits_hash
   end
   
@@ -74,7 +71,9 @@ class Digits
     }
     
   end
-  
-  @@digits_hash = self.create_digits_hash
+
+  def self.find_match_for_string(str)
+    self.digits_hash[str.strip]
+  end
   
 end

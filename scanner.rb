@@ -9,6 +9,7 @@ class Scanner
   end
   
   def scan_file(filename)
+    
     lines_in_file = File.readlines(filename)
     lines_grouped_per_account = group_lines_per_account(lines_in_file)
     

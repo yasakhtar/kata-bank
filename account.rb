@@ -31,13 +31,13 @@ class Account
   def status
     account_string = to_account_number
     
-    return 
-      if account_string.include? '?'
-        "ILL"
-      elsif checksum != 0
-        "ERR"
-        else ""
-      end
+    return  if account_string.include? '?'
+              "ILL"
+            else if checksum != 0
+              "ERR"
+            else 
+              ""
+            end
   end
 
   private
