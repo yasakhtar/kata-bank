@@ -21,13 +21,14 @@ class Account
   
   def status
     
-    return  if account_number.include? '?'
-              "ILL"
-            else if checksum != 0
-              "ERR"
-            else 
-              ""
-            end
+    if account_number.include? '?'
+      "ILL"
+    elsif checksum != 0
+      "ERR"
+    else
+      ""
+     end
+    
   end
 
   private
