@@ -1,4 +1,4 @@
-class Digits
+class DigitLookup
   
   def self.digits_hash
     @@digits_hash ||= self.create_digits_hash
@@ -74,6 +74,11 @@ class Digits
 
   def self.find_match_for_string(str)
     self.digits_hash[str.strip]
+  end
+
+  def self.find_match_for_lines(digit_lines)
+    digit_string = digit_lines.join("\n")
+    self.find_match_for_string(digit_string)
   end
   
 end

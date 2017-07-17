@@ -1,4 +1,4 @@
-require_relative 'digits'
+require_relative 'digit_lookup'
 
 class Digit
 
@@ -20,17 +20,22 @@ class Digit
   end
 
   def to_s
-    @digit_lines.join("\n")
-  end
-
-  def digit_as_string
-    @digit_lines.join("\n")
+    digit_as_string
   end
 
   def to_account_string
-    
-    match = Digits.find_match_for_string(self.digit_as_string) 
+    match = find_match
     match || '?'
+  end
+  
+  private
+  
+  def digit_as_string
+    @digit_lines.join("\n")
+  end
+  
+  def find_match
+    DigitLookup.find_match_for_lines(@digit_lines)
   end
   
 end
