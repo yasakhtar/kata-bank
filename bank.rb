@@ -12,8 +12,10 @@ class Bank
   end
 end
 
+
+
 bank = Bank.new
-accounts = bank.read_file("./input/account.txt")
+accounts = bank.read_file(ARGV[0])
 
 accounts.each do |account|
   puts "#{account.account_number} #{account.status}"

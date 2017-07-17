@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bdce791-ccc4-44bf-b3f3-3ebf009f3c3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/accounts.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.rb" afterPath="$PROJECT_DIR$/account.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/account.txt" afterPath="$PROJECT_DIR$/input/account.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bank.rb" afterPath="$PROJECT_DIR$/bank.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,17 +34,17 @@
         <entry file="file://$PROJECT_DIR$/input/accounts.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bank.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bank.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/account.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,9 +179,9 @@
         <option value="$PROJECT_DIR$/digits.rb" />
         <option value="$PROJECT_DIR$/account_converter.rb" />
         <option value="$PROJECT_DIR$/input/accounts.txt" />
-        <option value="$PROJECT_DIR$/bank.rb" />
         <option value="$PROJECT_DIR$/account.rb" />
         <option value="$PROJECT_DIR$/input/account.txt" />
+        <option value="$PROJECT_DIR$/bank.rb" />
       </list>
     </option>
   </component>
@@ -454,7 +451,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28020000" />
+    <option name="totallyTimeSpent" value="28162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,7 +853,7 @@
     <entry file="file://$PROJECT_DIR$/input/accounts.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -869,18 +866,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank.rb">
+    <entry file="file://$PROJECT_DIR$/input/account.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input/account.txt">
+    <entry file="file://$PROJECT_DIR$/bank.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
